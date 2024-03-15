@@ -1,0 +1,63 @@
+#navbar {
+  border: 2px solid #4CAF50; /* Green border */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 2px 2px 5px #333; /* Dark gray shadow */
+  transition: background-color 0.3s ease-in-out;
+}
+
+#logo h1 {
+  color: #FF5733; /* Orange color for the logo */
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+#links a {
+  color: #f0f0f0; /* Dodger blue color for links */
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.5s ease-in-out;
+}
+
+#links a:hover {
+  color: #5c33ff; /* Orange color on hover */
+}
+
+#navbar:hover {
+  background-color: #F4F4F4; /* Light gray background on hover */
+}
+
+#formSubmission {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+#formSubmission input{
+  border-radius: 25px;
+}
+#formSubmission textarea{
+  border-radius: 25px;
+  text-align: center;
+}
+button {
+  padding: 10px;
+  width: 200px;
+  background-color: #1E90FF; /* Dodger blue background for the button */
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #FF5733; /* Orange background on hover */
+  box-shadow: 5px 5px 10px #333; /* Dark gray shadow on hover */
+}

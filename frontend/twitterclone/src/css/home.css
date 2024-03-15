@@ -1,0 +1,60 @@
+body {
+  background-color: #15202b; /* Dark gray background */
+  color: #ffffff; /* White text */
+}
+
+#navbar {
+  border: 1px solid #ffffff; /* White border */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px #000000; /* Dark shadow */
+  transition: background-color 300ms ease-in-out;
+}
+
+h1 {
+  color: #00bcd4; /* Light blue heading color */
+  text-align: center;
+}
+
+
+#links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  
+}
+
+#links a {
+  color: #00bcd4;/* White text for links */
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 500ms ease-in-out;
+  background-color:#00bcd4; /* Background color */
+  padding: 20px; /* Padding around content */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+#login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f0f0f0; /* Background color */
+  padding: 20px; /* Padding around content */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+#login h1 {
+  text-align: center; /* Center text horizontally */
+  margin: 0; /* Remove default margin */
+}
+
+
+
+

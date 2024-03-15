@@ -1,0 +1,64 @@
+/* footer.css */
+.footer {
+    background-color: #1f354b; /* Twitter's background color */
+    color: #ffffff; /* White text */
+    padding: 18px 0; /* Padding top and bottom */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+ .container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links ul li {
+    display: inline-block;
+    margin-right: 20px; /* Adjust the spacing between links */
+  }
+  
+  .footer-links ul li:last-child {
+    margin-right: 0; /* Remove right margin for the last link */
+  }
+  
+  .footer-links ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer-links ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .additional-terms {
+    text-align: center;
+  }
+  
+  .additional-terms p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+/* .twitter-logo {
+    width: 40px; /* Adjust the width of the Twitter logo */
+    /*margin-right: 10px; /* Add some spacing between the logo and text */
+/* } */
+.footer-logo h1 {
+    font-size: 24px; /* Adjust the font size of the footer logo */
+    margin: 0; /* Remove default margin */
+
+  }
